@@ -17,6 +17,8 @@ UENV_EXTRA_CONFIGS = "\
 
 hostname:pn-base-files = "torizon-sl2619"
 
-MACHINE_EXTRA_RRECOMMENDS:remove = "synasdk-gpu-mali"
+#MACHINE_EXTRA_RRECOMMENDS:remove = "synasdk-gpu-mali"
+DISTRO_FEATURES_REMOVE:remove = "wayland"
+MACHINE_ESSENTIAL_EXTRA_RDEPENDS:append = " weston weston-init weston-examples"
 
 require sl-common.inc

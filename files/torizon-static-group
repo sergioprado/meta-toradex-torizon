@@ -46,6 +46,9 @@ kvm:x:102:
 render:x:103:
 sgx:x:104:
 ptest:x:529:
+wayland:x:979:
+weston:x:980:
+weston-launch:x:981:
 teeclnt:x:982:
 tss:x:983:
 systemd-bus-proxy:x:984:
